@@ -2,7 +2,8 @@
 
 list = range(1,11)
 for num1 in list:
-	print("\nLa tabla del", list)
+	print("\nLa tabla del", num1)
+	print("----------------")
 	for num2 in list:
 		print(num1, "x", num2, " = ", num1*num2)
 
